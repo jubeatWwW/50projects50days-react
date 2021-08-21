@@ -17,6 +17,10 @@ const routes = [
     name: 'Progress Steps',
     path: '/projects/progress-steps',
   },
+  {
+    name: 'Rotating Nav Animation',
+    path: '/projects/rotating-nav-animation',
+  },
 ];
 
 const Sider = props => {
