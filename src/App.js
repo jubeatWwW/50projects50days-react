@@ -13,6 +13,7 @@ import Sider from './core/sider/sider';
 import Home from './modules/home/home';
 import ExpandingCards from './modules/expanding-cards/expanding-cards';
 import ProgressSteps from './modules/progress-steps/progress-steps';
+import RotatingNavAnimation from './modules/rotating-nav-animation/rotating-nav-animation';
 
 const drawerWidth = 240;
 
@@ -35,7 +36,6 @@ const useStyles = makeStyles(theme => ({
   },
   content: {
     flexGrow: 1,
-    padding: theme.spacing(3),
   },
   title: {
     flexGrow: 1,
@@ -69,7 +69,10 @@ function App() {
       <main className={classes.content}>
         <Toolbar />
         <Switch>
-        <Route path="/projects/progress-steps">
+          <Route path="/projects/rotating-nav-animation">
+            <RotatingNavAnimation />
+          </Route>
+          <Route path="/projects/progress-steps">
             <ProgressSteps />
           </Route>
           <Route path="/projects/expanding-cards">
