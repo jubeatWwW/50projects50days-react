@@ -29,7 +29,7 @@ const cards = [
 const useStyles = makeStyles({
   container: {
     display: 'flex',
-    width: '90vw',
+    overflow: 'hidden',
   },
 });
 
