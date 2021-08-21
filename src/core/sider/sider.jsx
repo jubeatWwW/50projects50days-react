@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
+import MenuList from '@material-ui/core/MenuList';
+import MenuItem from '@material-ui/core/MenuItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
 const routes = [
@@ -13,19 +13,21 @@ const routes = [
     name: 'Expanding Cards',
     path: '/projects/expanding-cards',
   },
+  {
+    name: 'Progress Steps',
+    path: '/projects/progress-steps',
+  },
 ];
 
 const Sider = props => {
   return (
-    <List component="nav">
+    <MenuList>
       {routes.map(route => (
-        <Link to={route.path}>
-          <ListItem button>
-            <ListItemText primary={route.name} />
-          </ListItem>
-        </Link>
+        <MenuItem component={Link} to={route.path} key={route.path}>
+          <ListItemText primary={route.name} />
+        </MenuItem>
       ))}
-    </List>
+    </MenuList>
   );
 };
 
