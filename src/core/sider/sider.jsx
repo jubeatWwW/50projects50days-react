@@ -4,24 +4,7 @@ import MenuList from '@material-ui/core/MenuList';
 import MenuItem from '@material-ui/core/MenuItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-const routes = [
-  {
-    name: 'Home',
-    path: '/',
-  },
-  {
-    name: 'Expanding Cards',
-    path: '/projects/expanding-cards',
-  },
-  {
-    name: 'Progress Steps',
-    path: '/projects/progress-steps',
-  },
-  {
-    name: 'Rotating Nav Animation',
-    path: '/projects/rotating-nav-animation',
-  },
-];
+import { routes } from '../router/router';
 
 const Sider = props => {
   return (

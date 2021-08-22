@@ -1,4 +1,3 @@
-import { Switch, Route } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -9,11 +8,7 @@ import Drawer from '@material-ui/core/Drawer';
 import './App.css';
 
 import Sider from './core/sider/sider';
-
-import Home from './modules/home/home';
-import ExpandingCards from './modules/expanding-cards/expanding-cards';
-import ProgressSteps from './modules/progress-steps/progress-steps';
-import RotatingNavAnimation from './modules/rotating-nav-animation/rotating-nav-animation';
+import Router from './core/router/router';
 
 const drawerWidth = 240;
 
@@ -68,20 +63,7 @@ function App() {
       </Drawer>
       <main className={classes.content}>
         <Toolbar />
-        <Switch>
-          <Route path="/projects/rotating-nav-animation">
-            <RotatingNavAnimation />
-          </Route>
-          <Route path="/projects/progress-steps">
-            <ProgressSteps />
-          </Route>
-          <Route path="/projects/expanding-cards">
-            <ExpandingCards />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <Router />
       </main>
     </div>
   );
