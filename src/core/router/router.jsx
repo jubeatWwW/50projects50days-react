@@ -46,6 +46,14 @@ export const routes = [
       import('../../modules/blurry-loading/blurry-loading')
     ),
   },
+  {
+    name: 'Scroll Animation',
+    path: '/projects/scroll-animation',
+    exact: true,
+    component: lazy(() =>
+      import('../../modules/scroll-animation/scroll-animation')
+    ),
+  },
 ];
 
 const Router = () => (
