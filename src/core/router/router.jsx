@@ -38,13 +38,21 @@ export const routes = [
     exact: true,
     component: lazy(() => import('../../modules/hidden-search/hidden-search')),
   },
+  {
+    name: 'Blurry Loading',
+    path: '/projects/blurry-loading',
+    exact: true,
+    component: lazy(() =>
+      import('../../modules/blurry-loading/blurry-loading')
+    ),
+  },
 ];
 
 const Router = () => (
   <Suspense fallback={<div>Loading...</div>}>
     <Switch>
       {routes.map(route => (
-        <Route {...route}></Route>
+        <Route {...route} key={route.name}></Route>
       ))}
     </Switch>
   </Suspense>
