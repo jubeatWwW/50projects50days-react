@@ -54,6 +54,14 @@ export const routes = [
       import('../../modules/scroll-animation/scroll-animation')
     ),
   },
+  {
+    name: 'Split Landing Page',
+    path: '/projects/split-landing-page',
+    exact: true,
+    component: lazy(() =>
+      import('../../modules/split-landing-page/split-landing-page')
+    ),
+  },
 ];
 
 const Router = () => (

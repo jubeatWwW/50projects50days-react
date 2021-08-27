@@ -13,7 +13,7 @@ const useStyles = makeStyles({
   },
   bg: props => ({
     background:
-      "url('https://images4.alphacoders.com/277/277854.jpg') no-repeat center center/cover",
+      "url('https://images.unsplash.com/photo-1529257414772-1960b7bea4eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80') no-repeat center center/cover",
     position: 'absolute',
     width: '100%',
     height: '100%',
