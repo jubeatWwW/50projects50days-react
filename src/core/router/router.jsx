@@ -62,6 +62,14 @@ export const routes = [
       import('../../modules/split-landing-page/split-landing-page')
     ),
   },
+  {
+    name: 'Form Input Wave',
+    path: '/projects/form-input-wave',
+    exact: true,
+    component: lazy(() =>
+      import('../../modules/form-input-wave/form-input-wave')
+    ),
+  },
 ];
 
 const Router = () => (
