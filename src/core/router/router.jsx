@@ -19,6 +19,7 @@ const projectNames = [
   'sound-board',
   'dad-jokes',
   'event-keycodes',
+  'faq-collapse',
 ];
 
 export const routes = [
