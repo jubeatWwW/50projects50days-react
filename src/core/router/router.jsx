@@ -17,6 +17,7 @@ const projectNames = [
   'split-landing-page',
   'form-input-wave',
   'sound-board',
+  'dad-jokes',
 ];
 
 export const routes = [
