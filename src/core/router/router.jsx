@@ -18,6 +18,7 @@ const projectNames = [
   'form-input-wave',
   'sound-board',
   'dad-jokes',
+  'event-keycodes',
 ];
 
 export const routes = [
