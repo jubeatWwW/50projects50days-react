@@ -49,6 +49,7 @@ const FormItem = props => {
       <label className={classes.label}>
         {[...props.label].map((c, index) => (
           <span
+            key={index}
             className={classes.span}
             style={{ transitionDelay: `${index * 50}ms` }}
           >
