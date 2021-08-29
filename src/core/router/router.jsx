@@ -20,6 +20,7 @@ const projectNames = [
   'dad-jokes',
   'event-keycodes',
   'faq-collapse',
+  'random-choice-picker',
 ];
 
 export const routes = [
