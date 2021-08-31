@@ -21,6 +21,7 @@ const projectNames = [
   'event-keycodes',
   'faq-collapse',
   'random-choice-picker',
+  'animated-navigation',
 ];
 
 export const routes = [
