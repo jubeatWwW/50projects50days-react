@@ -22,6 +22,7 @@ const projectNames = [
   'faq-collapse',
   'random-choice-picker',
   'animated-navigation',
+  'incrementing-counter',
 ];
 
 export const routes = [
