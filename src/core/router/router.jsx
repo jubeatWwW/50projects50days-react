@@ -23,6 +23,7 @@ const projectNames = [
   'random-choice-picker',
   'animated-navigation',
   'incrementing-counter',
+  'drink-water',
 ];
 
 export const routes = [
