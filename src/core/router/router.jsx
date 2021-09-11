@@ -26,6 +26,7 @@ const projectNames = [
   'drink-water',
   'movie-app',
   'background-slider',
+  'theme-clock',
 ];
 
 export const routes = [
