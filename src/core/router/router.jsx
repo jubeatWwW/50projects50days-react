@@ -25,6 +25,7 @@ const projectNames = [
   'incrementing-counter',
   'drink-water',
   'movie-app',
+  'background-slider',
 ];
 
 export const routes = [
