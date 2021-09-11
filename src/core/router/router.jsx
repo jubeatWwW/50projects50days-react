@@ -24,6 +24,7 @@ const projectNames = [
   'animated-navigation',
   'incrementing-counter',
   'drink-water',
+  'movie-app',
 ];
 
 export const routes = [

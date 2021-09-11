@@ -36,7 +36,6 @@ const EventKeycodes = () => {
   const [event, setEvent] = useState(null);
 
   const onKeyDown = useCallback(e => {
-    console.log(e);
     setEvent(e);
   }, []);
 
