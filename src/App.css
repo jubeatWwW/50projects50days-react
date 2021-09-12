@@ -8,6 +8,13 @@
   --content-height: calc(100vh - 64px);
 }
 
+@keyframes ripple {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
+
 .App {
   text-align: center;
 }
