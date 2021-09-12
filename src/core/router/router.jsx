@@ -29,6 +29,7 @@ const projectNames = [
   'theme-clock',
   'button-ripple-effect',
   'drag-n-drop',
+  'kinetic-loader',
 ];
 
 export const routes = [
