@@ -28,6 +28,7 @@ const projectNames = [
   'background-slider',
   'theme-clock',
   'button-ripple-effect',
+  'drag-n-drop',
 ];
 
 export const routes = [
