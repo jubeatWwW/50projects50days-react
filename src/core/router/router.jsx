@@ -27,6 +27,7 @@ const projectNames = [
   'movie-app',
   'background-slider',
   'theme-clock',
+  'button-ripple-effect',
 ];
 
 export const routes = [
