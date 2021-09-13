@@ -30,6 +30,7 @@ const projectNames = [
   'button-ripple-effect',
   'drag-n-drop',
   'kinetic-loader',
+  'content-placeholder',
 ];
 
 export const routes = [
