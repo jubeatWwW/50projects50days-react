@@ -31,6 +31,7 @@ const projectNames = [
   'drag-n-drop',
   'kinetic-loader',
   'content-placeholder',
+  'sticky-navigation',
 ];
 
 export const routes = [
